@@ -1,0 +1,19 @@
+{
+    "faqs": [
+        {
+            "id": 1,
+            "question": "¿Qué es el Nuxt?",
+            "answer": "Nuxt es una plataforma de generación de aplicaciones web modernas y escalables. Permite crear aplicaciones web de alta calidad y rendimiento con una arquitectura modular y una gran flexibilidad en la estructura de la aplicación."
+        },
+        {
+            "id": 2,
+            "question": "¿Qué es una aplicación web?",
+            "answer": "Una aplicación web es un programa informático diseñado para ser utilizado por usuarios en su navegador web. Las aplicaciones web se pueden utilizar para realizar una amplia variedad de tareas, desde la búsqueda de información hasta la gestión de documentos y la comunicación en línea."
+        },
+        {
+            "id": 3,
+            "question": "¿Qué es una plataforma?",
+            "answer": "Una plataforma es un conjunto de herramientas, software y servicios que permiten a los desarrolladores crear, desarrollar y desplegar aplicaciones web. Las plataformas se utilizan para facilitar el desarrollo de aplicaciones web, proporcionando una serie de herramientas y recursos que ayudan a los desarrolladores a crear aplicaciones web de alta calidad y rendimiento."
+        }
+    ]
+}
