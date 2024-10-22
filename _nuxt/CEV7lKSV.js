@@ -1,0 +1,1 @@
+import{m as t,H as s,o,c as r,d as n,a as u,t as i,u as l,F as p}from"./_E3UUY90.js";const f=t({__name:"[id]",setup(m){const a=s();return(c,e)=>(o(),r(p,null,[e[0]||(e[0]=n(" View profile ")),u("div",null,i(l(a).params.id),1)],64))}});export{f as default};

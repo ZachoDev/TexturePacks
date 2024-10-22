@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as c}from"./_E3UUY90.js";const n={};function o(r,s){return c(),a("h1",null,"Esta es la pagina principal es el index de la app muchacho jei")}const l=e(n,[["render",o]]);export{l as default};

@@ -1,0 +1,1 @@
+import{m as s,H as n,o as u,c as m,d,a as t,t as r,u as o,F as l}from"./_E3UUY90.js";const _=s({__name:"[id]",setup(p){const e=n();return(c,a)=>(u(),m(l,null,[a[0]||(a[0]=d(" View product ")),t("div",null," Parametro Id: "+r(o(e).params.id),1),t("div",null," Parametro Categorya: "+r(o(e).params.category),1)],64))}});export{_ as default};

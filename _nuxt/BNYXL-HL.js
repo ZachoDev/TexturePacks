@@ -1,0 +1,1 @@
+import{_ as n,o as t,c as o,b as s,a as r,z as _,F as l}from"./_E3UUY90.js";const i={};function u(e,a){return t(),o("div",null," No menu available, please login ")}const d=n(i,[["render",u]]),m={},f={class:"mt-16 container mx-auto"};function p(e,a){const c=d;return t(),o(l,null,[s(c),r("div",f,[_(e.$slots,"default")])],64)}const h=n(m,[["render",p]]);export{h as default};
