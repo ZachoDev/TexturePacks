@@ -54,26 +54,27 @@ const navMenuItems = [
   {
     name: 'Home',
     link: 'index',
+    type: 'item'
   },
   {
-    name: 'Contact',
-    link: 'contact',
-  },
-  {
-    name: 'Persons',
-    link: 'persons',
-  },
-  {
-    name: 'Products',
+    name: 'Texture Packs',
     link: 'products',
+    type: 'item'
+  },
+  {
+    name: 'Logo',
+    link: 'index',
+    type: 'logo'
+  },
+  {
+    name: 'About',
+    link: 'persons',
+    type: 'item'
   },
   {
     name: 'Faq',
     link: 'faq',
-  },
-  {
-    name: 'Login',
-    link: 'account',
+    type: 'item'
   },
 ]
 
@@ -83,18 +84,17 @@ const navMenuItems = [
   <NavigationMenu >
     <NavigationMenuList>
 
-      <NavigationMenuItem>
-        <NavigationMenuLink class="m-5">
-          ZACHO
-        </NavigationMenuLink>
-      </NavigationMenuItem>
-
       <NavigationMenuItem v-for="item in navMenuItems" :key="item.name">
-        <NuxtLink :to="{name: item.link}" >
+        <NuxtLink v-if="item.type === 'item'" :to="{name: item.link}" >
           <NavigationMenuLink :class="$route.name === item.link ? navigationMenuTriggerStyleActive() : navigationMenuTriggerStyle()">
             {{ item.name }}
           </NavigationMenuLink>
         </NuxtLink>
+        <NavigationMenuLink v-else class="m-10">
+          <NuxtLink :to="{name: item.link}" >
+            ZACHO
+          </NuxtLink>
+        </NavigationMenuLink>
       </NavigationMenuItem>
 
     </NavigationMenuList>
